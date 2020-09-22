@@ -1,0 +1,14 @@
+RunTests.py
+
+_tests_assets
+_tests_mismatch
+Phen2GeneTests
+
+**/__pycache__
+**/*.txt
+.git
+*.md
+*.pyproj
+*.user
+
+!requirements.txt

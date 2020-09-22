@@ -1,0 +1,5 @@
+# Build docker image
+docker build -t phen2gene:latest .
+
+# Execute
+docker run --memory=0.25G --cpus=0.25 -v //p//F29/Phenolyzer:/kbase -p 8080:8080 phen2gene:latest

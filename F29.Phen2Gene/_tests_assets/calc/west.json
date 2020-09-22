@@ -1,0 +1,122 @@
+{
+  "TSC2": {
+    "rank": 1,
+    "id": 7249,
+    "score": 1080.0978,
+    "status": "SeedGene"
+  },
+  "TSC1": {
+    "rank": 2,
+    "id": 7248,
+    "score": 1056.5321,
+    "status": "SeedGene"
+  },
+  "GCK": {
+    "rank": 3,
+    "id": 2645,
+    "score": 619.3014,
+    "status": "SeedGene"
+  },
+  "ARX": {
+    "rank": 4,
+    "id": 170302,
+    "score": 610.2779,
+    "status": "SeedGene"
+  },
+  "INS": {
+    "rank": 5,
+    "id": 3630,
+    "score": 599.6895,
+    "status": "SeedGene"
+  },
+  "KCNJ11": {
+    "rank": 6,
+    "id": 3767,
+    "score": 540.0025,
+    "status": "SeedGene"
+  },
+  "PLCB1": {
+    "rank": 7,
+    "id": 23236,
+    "score": 538.0384,
+    "status": "SeedGene"
+  },
+  "ABCC8": {
+    "rank": 8,
+    "id": 6833,
+    "score": 511.2275,
+    "status": "SeedGene"
+  },
+  "PAFAH1B1": {
+    "rank": 9,
+    "id": 5048,
+    "score": 496.7608,
+    "status": "SeedGene"
+  },
+  "GRIN2B": {
+    "rank": 10,
+    "id": 2904,
+    "score": 490.8594,
+    "status": "SeedGene"
+  },
+  "SPTAN1": {
+    "rank": 11,
+    "id": 6709,
+    "score": 490.2687,
+    "status": "SeedGene"
+  },
+  "ST3GAL3": {
+    "rank": 12,
+    "id": 6487,
+    "score": 486.4636,
+    "status": "SeedGene"
+  },
+  "GNAO1": {
+    "rank": 13,
+    "id": 2775,
+    "score": 465.2205,
+    "status": "SeedGene"
+  },
+  "PDX1": {
+    "rank": 14,
+    "id": 3651,
+    "score": 461.3981,
+    "status": "SeedGene"
+  },
+  "PIGQ": {
+    "rank": 15,
+    "id": 9091,
+    "score": 460.142,
+    "status": "SeedGene"
+  },
+  "PLA2G6": {
+    "rank": 16,
+    "id": 8398,
+    "score": 459.6382,
+    "status": "SeedGene"
+  },
+  "PIGP": {
+    "rank": 17,
+    "id": 51227,
+    "score": 452.1969,
+    "status": "SeedGene"
+  },
+  "PIGA": {
+    "rank": 18,
+    "id": 5277,
+    "score": 450.4518,
+    "status": "SeedGene"
+  },
+  "UPB1": {
+    "rank": 19,
+    "id": 51733,
+    "score": 438.1942,
+    "status": "SeedGene"
+  },
+  "STXBP1": {
+    "rank": 20,
+    "id": 6812,
+    "score": 433.7582,
+    "status": "SeedGene"
+  }
+}
