@@ -1,0 +1,122 @@
+{
+  "SCN1A": {
+    "rank": 1,
+    "id": 6323,
+    "score": 1.0,
+    "status": "SeedGene"
+  },
+  "SCN9A": {
+    "rank": 2,
+    "id": 6335,
+    "score": 0.8337,
+    "status": "SeedGene"
+  },
+  "SCN2A": {
+    "rank": 3,
+    "id": 6326,
+    "score": 0.7942,
+    "status": "SeedGene"
+  },
+  "GABRG2": {
+    "rank": 4,
+    "id": 2566,
+    "score": 0.7541,
+    "status": "SeedGene"
+  },
+  "SCN1B": {
+    "rank": 5,
+    "id": 6324,
+    "score": 0.7355,
+    "status": "SeedGene"
+  },
+  "NHLRC1": {
+    "rank": 6,
+    "id": 378884,
+    "score": 0.6289,
+    "status": "SeedGene"
+  },
+  "EPM2A": {
+    "rank": 7,
+    "id": 7957,
+    "score": 0.5958,
+    "status": "SeedGene"
+  },
+  "PCDH19": {
+    "rank": 8,
+    "id": 57526,
+    "score": 0.5394,
+    "status": "SeedGene"
+  },
+  "ALDH5A1": {
+    "rank": 9,
+    "id": 7915,
+    "score": 0.4901,
+    "status": "SeedGene"
+  },
+  "ALDH7A1": {
+    "rank": 10,
+    "id": 501,
+    "score": 0.382,
+    "status": "SeedGene"
+  },
+  "GABRA1": {
+    "rank": 11,
+    "id": 2554,
+    "score": 0.2874,
+    "status": "SeedGene"
+  },
+  "STXBP1": {
+    "rank": 12,
+    "id": 6812,
+    "score": 0.2698,
+    "status": "SeedGene"
+  },
+  "SLC12A5": {
+    "rank": 13,
+    "id": 57468,
+    "score": 0.2497,
+    "status": "SeedGene"
+  },
+  "SLC2A1": {
+    "rank": 14,
+    "id": 6513,
+    "score": 0.249,
+    "status": "SeedGene"
+  },
+  "UBE3A": {
+    "rank": 15,
+    "id": 7337,
+    "score": 0.2379,
+    "status": "SeedGene"
+  },
+  "GRIN2A": {
+    "rank": 16,
+    "id": 2903,
+    "score": 0.2304,
+    "status": "SeedGene"
+  },
+  "ARX": {
+    "rank": 17,
+    "id": 170302,
+    "score": 0.2156,
+    "status": "SeedGene"
+  },
+  "TBC1D24": {
+    "rank": 18,
+    "id": 57465,
+    "score": 0.2066,
+    "status": "SeedGene"
+  },
+  "SLC6A1": {
+    "rank": 19,
+    "id": 6529,
+    "score": 0.2061,
+    "status": "SeedGene"
+  },
+  "KCNQ2": {
+    "rank": 20,
+    "id": 3785,
+    "score": 0.1954,
+    "status": "SeedGene"
+  }
+}

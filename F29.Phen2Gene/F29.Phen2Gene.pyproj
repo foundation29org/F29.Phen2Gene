@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1f6126a0-e5c7-45f4-b243-5769b4823cf6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RunTests.py</StartupFile>
+    <StartupFile>app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -63,10 +63,15 @@ FLASK_DEBUG=False
     <Content Include="BuildRun.txt" />
     <Content Include="Dockerfile" />
     <Content Include="requirements.txt" />
+    <Content Include="_tests_assets\calc\dravet-norm.json" />
     <Content Include="_tests_assets\calc\dravet.json" />
+    <Content Include="_tests_assets\calc\skraban-norm.json" />
     <Content Include="_tests_assets\calc\skraban.json" />
+    <Content Include="_tests_assets\calc\sotos-norm.json" />
     <Content Include="_tests_assets\calc\sotos.json" />
+    <Content Include="_tests_assets\calc\west-norm.json" />
     <Content Include="_tests_assets\calc\west.json" />
+    <Content Include="_tests_mismatch\dummy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

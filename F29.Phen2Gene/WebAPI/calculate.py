@@ -9,6 +9,7 @@ from Services import calculate
 
 @API.doc(params={
     'weight_model': {'description': 'methods to merge gene scores (sk, ic, w, u, s)', 'in': 'query', 'default': 'sk'},
+    'normalize': {'description': 'normalize score', 'in': 'query', 'type': 'bool', 'default': True},
     'rows': {'description': 'number of rows', 'in': 'query', 'type': 'int', 'default': 100}
     })
 @API.route('/calc')
@@ -20,17 +21,19 @@ class Calculate(Resource):
     @API.doc(params={ 'hpos': {'description': 'list of HPO IDs', 'in': 'query'} })
     def get(self):
         model = request.args.get('weight_model') or 'sk'
+        normalize = not (str(request.args.get('normalize')).lower() == 'false')
         rows = int(request.args.get('rows') or 100)
         hpos = request.args.get('hpos')
         hpos = [hpo.strip() for hpo in hpos.split(',')]
-        return calculate(self.kb_path, hpos, weight_model=model, rows=rows)
+        return calculate(self.kb_path, hpos, weight_model=model, normalize=normalize, rows=rows)
 
     @API.doc(params={ 'hpos': {'description': 'list of HPO IDs', 'in': 'body'} })
     def post(self):
         model = request.args.get('weight_model') or 'sk'
+        normalize = not (str(request.args.get('normalize')).lower() == 'false')
         rows = int(request.args.get('rows') or 100)
         data = request.data
         if data:
             hpos = json.loads(request.data)
-            return calculate(self.kb_path, hpos, weight_model=model, rows=rows)
+            return calculate(self.kb_path, hpos, weight_model=model, normalize=normalize, rows=rows)
         return {}
