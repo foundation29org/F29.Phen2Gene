@@ -1,0 +1,22 @@
+{
+  "HP_0030422": {
+    "id": "HP:0030422",
+    "status": "obsolete",
+    "replaced_by": null,
+    "consider": []
+  },
+  "HP_0030152": {
+    "id": "HP:0030152",
+    "status": "obsolete",
+    "replaced_by": "HP:0100574",
+    "consider": []
+  },
+  "HP_0045013": {
+    "id": "HP:0045013",
+    "status": "obsolete",
+    "replaced_by": null,
+    "consider": [
+      "HP:0011016"
+    ]
+  }
+}

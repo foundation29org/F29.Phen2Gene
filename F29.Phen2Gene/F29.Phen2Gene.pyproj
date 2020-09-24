@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1f6126a0-e5c7-45f4-b243-5769b4823cf6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.py</StartupFile>
+    <StartupFile>RunTests.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,11 @@ FLASK_DEBUG=False
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="Lab.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Phen2GeneTests\phen2gene_calc_tests.py" />
+    <Compile Include="Phen2GeneTests\phen2gene_query_tests.py" />
     <Compile Include="Phen2GeneTests\calculation_tests.py" />
     <Compile Include="Phen2GeneTests\_common.py" />
     <Compile Include="Phen2GeneTests\__init__.py" />
@@ -36,6 +41,9 @@ FLASK_DEBUG=False
     <Compile Include="Phen2Gene\filter.py" />
     <Compile Include="Phen2Gene\json_format.py" />
     <Compile Include="Phen2Gene\output.py" />
+    <Compile Include="Phen2Gene\phen2gene.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Phen2Gene\prioritize.py" />
     <Compile Include="Phen2Gene\score_merge.py" />
     <Compile Include="Phen2Gene\weight_assignment.py" />
@@ -56,6 +64,7 @@ FLASK_DEBUG=False
     <Folder Include="WebAPI\" />
     <Folder Include="_tests_assets\" />
     <Folder Include="_tests_assets\calc\" />
+    <Folder Include="_tests_assets\query\" />
     <Folder Include="_tests_mismatch\" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +80,10 @@ FLASK_DEBUG=False
     <Content Include="_tests_assets\calc\sotos.json" />
     <Content Include="_tests_assets\calc\west-norm.json" />
     <Content Include="_tests_assets\calc\west.json" />
+    <Content Include="_tests_assets\query\query-mix.json" />
+    <Content Include="_tests_assets\query\query-obs.json" />
+    <Content Include="_tests_assets\query\validation-mix.json" />
+    <Content Include="_tests_assets\query\validation-obs.json" />
     <Content Include="_tests_mismatch\dummy.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
