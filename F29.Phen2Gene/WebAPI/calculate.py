@@ -28,8 +28,10 @@ class Calculate(Resource):
         normalize = not (str(request.args.get('normalize')).lower() == 'false')
         rows = int(request.args.get('rows') or 100)
         hpos = request.args.get('hpos')
-        hpos = [hpo.strip() for hpo in hpos.split(',')]
-        return phen2gene.execute(hpos, weight_model=model, normalize=normalize, rows=rows)
+        if hpos:
+            hpos = [hpo.strip() for hpo in hpos.split(',')]
+            return phen2gene.execute(hpos, weight_model=model, normalize=normalize, rows=rows)
+        return {}
 
     @API.doc(params={ 'hpos': {'description': 'list of HPO IDs', 'in': 'body'} })
     def post(self):
