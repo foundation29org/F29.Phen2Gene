@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 def initialize_app(flask_app):
     blueprint = Blueprint('api', __name__, url_prefix='/api')
+    API.version = settings.VERSION
     API.init_app(blueprint)
 
     # Service config

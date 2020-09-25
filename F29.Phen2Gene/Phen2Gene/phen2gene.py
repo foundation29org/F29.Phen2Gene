@@ -50,6 +50,7 @@ class Phen2Gene():
         hpos = self._ensure_upper_list(hpos)
         for hpo in hpos:
             if hpo:
+                hpo = hpo.strip()
                 dic[hpo] = self.validate_hpo(hpo)
         return dic
         
@@ -86,7 +87,7 @@ class Phen2Gene():
         return None
 
     '''
-        Query
+        Build Query
     '''
     def build_query(self, hpos):
         validations = self.validate(hpos)
@@ -111,30 +112,30 @@ class Phen2Gene():
         Calculate
     '''
     def calculate(self, hpos, weight_model='sk', normalize=True, rows=100):
+        weights = {}
         hpos = self._ensure_upper_list(hpos)
-        hp_weight_dict = {}
         for hp in hpos:
             if hp and hp.find(':') > -1:
                 hp = hp.replace(':', '_').strip()
                 (weight, replaced_by) = assign(self.path, hp, weight_model)
                 if(weight > 0):
                     if(replaced_by != None):
-                        hp_weight_dict[replaced_by] = weight
+                        weights[replaced_by] = weight
                     else:
-                        hp_weight_dict[hp] = weight
+                        weights[hp] = weight
 
-        gene_dict = calc(self.path, hp_weight_dict, verbosity=False, gene_weight=None, cutoff=None)
-        gene_dict = gene_prioritization(gene_dict)
+        genes = calc(self.path, weights, verbosity=False, gene_weight=None, cutoff=None)
+        genes = gene_prioritization(genes)
 
         dic = {}
-        if len(gene_dict) > 0:
+        if len(genes) > 0:
             factor = 1
             if normalize:
-                first = next(iter(gene_dict.values()))
+                first = next(iter(genes.values()))
                 factor = first[1]
-            for n, key in enumerate(gene_dict):
+            for n, key in enumerate(genes):
                 if n >= rows: break
-                gene, score, status, _, id = gene_dict[key]
+                gene, score, status, _, id = genes[key]
                 score = score / factor
                 item = {
                         'rank': n + 1,
@@ -144,6 +145,23 @@ class Phen2Gene():
                     }
                 dic[gene] = item
         return dic
+
+    def execute(self, hpos, weight_model='sk', normalize=True, rows=100):
+        query = self.build_query(hpos)
+        targets = self.get_targets(query)
+        response = self.calculate(targets, weight_model, normalize, rows)
+        return {
+                'query': query,
+                'response': response
+            }
+
+    def get_targets(self, query):
+        items = []
+        for id in query:
+            target = query[id]['target']
+            if target:
+                items.extend(target)
+        return items;
 
     '''
         Helpers

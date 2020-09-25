@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1f6126a0-e5c7-45f4-b243-5769b4823cf6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RunTests.py</StartupFile>
+    <StartupFile>app.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,9 +32,9 @@ FLASK_DEBUG=False
     <Compile Include="Lab.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Phen2GeneTests\phen2gene_exec_tests.py" />
     <Compile Include="Phen2GeneTests\phen2gene_calc_tests.py" />
     <Compile Include="Phen2GeneTests\phen2gene_query_tests.py" />
-    <Compile Include="Phen2GeneTests\calculation_tests.py" />
     <Compile Include="Phen2GeneTests\_common.py" />
     <Compile Include="Phen2GeneTests\__init__.py" />
     <Compile Include="Phen2Gene\calculation.py" />
@@ -49,8 +49,6 @@ FLASK_DEBUG=False
     <Compile Include="Phen2Gene\weight_assignment.py" />
     <Compile Include="Phen2Gene\__init__.py" />
     <Compile Include="RunTests.py" />
-    <Compile Include="Services\calculation.py" />
-    <Compile Include="Services\__init__.py" />
     <Compile Include="settings.py" />
     <Compile Include="WebAPI\about.py" />
     <Compile Include="WebAPI\calculate.py" />
@@ -60,10 +58,10 @@ FLASK_DEBUG=False
   <ItemGroup>
     <Folder Include="Phen2GeneTests\" />
     <Folder Include="Phen2Gene\" />
-    <Folder Include="Services\" />
     <Folder Include="WebAPI\" />
     <Folder Include="_tests_assets\" />
     <Folder Include="_tests_assets\calc\" />
+    <Folder Include="_tests_assets\exec\" />
     <Folder Include="_tests_assets\query\" />
     <Folder Include="_tests_mismatch\" />
   </ItemGroup>
@@ -80,6 +78,12 @@ FLASK_DEBUG=False
     <Content Include="_tests_assets\calc\sotos.json" />
     <Content Include="_tests_assets\calc\west-norm.json" />
     <Content Include="_tests_assets\calc\west.json" />
+    <Content Include="_tests_assets\exec\dravet.json" />
+    <Content Include="_tests_assets\exec\empty.json" />
+    <Content Include="_tests_assets\exec\mixed.json" />
+    <Content Include="_tests_assets\exec\skraban.json" />
+    <Content Include="_tests_assets\exec\sotos.json" />
+    <Content Include="_tests_assets\exec\west.json" />
     <Content Include="_tests_assets\query\query-mix.json" />
     <Content Include="_tests_assets\query\query-obs.json" />
     <Content Include="_tests_assets\query\validation-mix.json" />

@@ -1,7 +1,7 @@
 import os
 
 # Service config
-VERSION = 'v1.0.0'
+VERSION = 'v1.1.0'
 KBASE_PATH = os.environ.get('KBASE_PATH', '/kbase')
 
 # Flask settings

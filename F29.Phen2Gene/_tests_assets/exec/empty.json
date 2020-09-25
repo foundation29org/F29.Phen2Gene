@@ -1,0 +1,22 @@
+{
+  "query": {
+    "ABC:00000001": {
+      "id": "ABC:00000001",
+      "status": "invalid",
+      "target": null
+    },
+    "HP:0099999": {
+      "id": "HP:0099999",
+      "status": "unknown",
+      "target": null
+    },
+    "HP_0030422": {
+      "id": "HP:0030422",
+      "status": "obsolete",
+      "replaced_by": null,
+      "consider": [],
+      "target": null
+    }
+  },
+  "response": {}
+}

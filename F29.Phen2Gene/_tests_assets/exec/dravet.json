@@ -1,0 +1,248 @@
+{
+  "query": {
+    "HP:0012758": {
+      "id": "HP:0012758",
+      "status": "ok",
+      "target": [
+        "HP:0012758"
+      ]
+    },
+    "HP:0005484": {
+      "id": "HP:0005484",
+      "status": "ok",
+      "target": [
+        "HP:0005484"
+      ]
+    },
+    "HP:0002384": {
+      "id": "HP:0002384",
+      "status": "ok",
+      "target": [
+        "HP:0002384"
+      ]
+    },
+    "HP:0002373": {
+      "id": "HP:0002373",
+      "status": "ok",
+      "target": [
+        "HP:0002373"
+      ]
+    },
+    "HP:0002266": {
+      "id": "HP:0002266",
+      "status": "ok",
+      "target": [
+        "HP:0002266"
+      ]
+    },
+    "HP:0200134": {
+      "id": "HP:0200134",
+      "status": "ok",
+      "target": [
+        "HP:0200134"
+      ]
+    },
+    "HP:0002197": {
+      "id": "HP:0002197",
+      "status": "ok",
+      "target": [
+        "HP:0002197"
+      ]
+    },
+    "HP:0002133": {
+      "id": "HP:0002133",
+      "status": "ok",
+      "target": [
+        "HP:0002133"
+      ]
+    },
+    "HP:0002123": {
+      "id": "HP:0002123",
+      "status": "ok",
+      "target": [
+        "HP:0002123"
+      ]
+    },
+    "HP:0002121": {
+      "id": "HP:0002121",
+      "status": "ok",
+      "target": [
+        "HP:0002121"
+      ]
+    },
+    "HP:0000992": {
+      "id": "HP:0000992",
+      "status": "ok",
+      "target": [
+        "HP:0000992"
+      ]
+    },
+    "HP:0002059": {
+      "id": "HP:0002059",
+      "status": "ok",
+      "target": [
+        "HP:0002059"
+      ]
+    },
+    "HP:0100704": {
+      "id": "HP:0100704",
+      "status": "ok",
+      "target": [
+        "HP:0100704"
+      ]
+    },
+    "HP:0025356": {
+      "id": "HP:0025356",
+      "status": "ok",
+      "target": [
+        "HP:0025356"
+      ]
+    },
+    "HP:0001250": {
+      "id": "HP:0001250",
+      "status": "ok",
+      "target": [
+        "HP:0001250"
+      ]
+    },
+    "HP:0001337": {
+      "id": "HP:0001337",
+      "status": "ok",
+      "target": [
+        "HP:0001337"
+      ]
+    },
+    "HP:0006813": {
+      "id": "HP:0006813",
+      "status": "ok",
+      "target": [
+        "HP:0006813"
+      ]
+    },
+    "HP:0001270": {
+      "id": "HP:0001270",
+      "status": "ok",
+      "target": [
+        "HP:0001270"
+      ]
+    },
+    "HP:0001268": {
+      "id": "HP:0001268",
+      "status": "ok",
+      "target": [
+        "HP:0001268"
+      ]
+    },
+    "HP:0001263": {
+      "id": "HP:0001263",
+      "status": "ok",
+      "target": [
+        "HP:0001263"
+      ]
+    },
+    "HP:0001252": {
+      "id": "HP:0001252",
+      "status": "ok",
+      "target": [
+        "HP:0001252"
+      ]
+    },
+    "HP:0001251": {
+      "id": "HP:0001251",
+      "status": "ok",
+      "target": [
+        "HP:0001251"
+      ]
+    },
+    "HP:0011151": {
+      "id": "HP:0011151",
+      "status": "ok",
+      "target": [
+        "HP:0011151"
+      ]
+    },
+    "HP:0007334": {
+      "id": "HP:0007334",
+      "status": "ok",
+      "target": [
+        "HP:0007334"
+      ]
+    },
+    "HP:0000708": {
+      "id": "HP:0000708",
+      "status": "ok",
+      "target": [
+        "HP:0000708"
+      ]
+    },
+    "HP:0002353": {
+      "id": "HP:0002353",
+      "status": "ok",
+      "target": [
+        "HP:0002353"
+      ]
+    }
+  },
+  "response": {
+    "SCN1A": {
+      "rank": 1,
+      "id": 6323,
+      "score": 1.0,
+      "status": "SeedGene"
+    },
+    "SCN9A": {
+      "rank": 2,
+      "id": 6335,
+      "score": 0.8337,
+      "status": "SeedGene"
+    },
+    "SCN2A": {
+      "rank": 3,
+      "id": 6326,
+      "score": 0.7942,
+      "status": "SeedGene"
+    },
+    "GABRG2": {
+      "rank": 4,
+      "id": 2566,
+      "score": 0.7541,
+      "status": "SeedGene"
+    },
+    "SCN1B": {
+      "rank": 5,
+      "id": 6324,
+      "score": 0.7355,
+      "status": "SeedGene"
+    },
+    "NHLRC1": {
+      "rank": 6,
+      "id": 378884,
+      "score": 0.6289,
+      "status": "SeedGene"
+    },
+    "EPM2A": {
+      "rank": 7,
+      "id": 7957,
+      "score": 0.5958,
+      "status": "SeedGene"
+    },
+    "PCDH19": {
+      "rank": 8,
+      "id": 57526,
+      "score": 0.5394,
+      "status": "SeedGene"
+    },
+    "ALDH5A1": {
+      "rank": 9,
+      "id": 7915,
+      "score": 0.4901,
+      "status": "SeedGene"
+    },
+    "ALDH7A1": {
+      "rank": 10,
+      "id": 501,
+      "score": 0.382,
+      "status": "SeedGene"
+    }
+  }
+}
