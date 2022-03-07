@@ -1,4 +1,6 @@
 # F29 Phen2Gene
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 Custom RESTful API service to expose Phen2Gene functionality to [Dx29 client application](https://github.com/foundation29org/Dx29_client).
 
 Please, refer to original [Phen2Gene](https://phen2gene.wglab.org) project for more details.
@@ -60,4 +62,9 @@ Browse to the API Swagger at: http://localhost:8080/api
 
 ## Phen2Gene Credits
 [Zhao, M., Havrilla, J. M., Fang, L., Chen, Y., Peng, J., Liu, C., Wu C., Sarmady M., Botas P., Isla J., Lyon G., Weng C., Wang, K. (2019). Phen2Gene: Rapid Phenotype-Driven Gene Prioritization for Rare Diseases.NAR Genomics and Bioinformatics, Volume 2, Issue 2, June 2020, lqaa032](https://doi.org/10.1093/nargab/lqaa032)
+
+
+### **Acknowledgements**
+
+This repository includes resources from the Human Phenotype Ontology consortium [https://hpo.jax.org/](https://hpo.jax.org/). Refer to the following publication for up-to date information: S. Köhler et al., The Human Phenotype Ontology in 2021, Nucleic Acids Research, Volume 49, Issue D1, 8 January 2021, Pages D1207–D1217, [https://doi.org/10.1093/nar/gkaa1043](https://doi.org/10.1093/nar/gkaa1043)
 
